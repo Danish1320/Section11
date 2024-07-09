@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+</head>
+<body>
+    <h1>Book Your Movie Ticket</h1>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+        <div>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <br>
+        <div>
+            <label for="movie">Select Movie:</label>
+            <select id="movie" name="movie" required>
+                <option value="">Select a movie</option>
+                <option value="movie1">Movie 1</option>
+                <option value="movie2">Movie 2</option>
+                <option value="movie3">Movie 3</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <br>
+        <div>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+        </div>
+        <br>
+        <div>
+            <label for="tickets">Number of Tickets:</label>
+            <input type="number" id="tickets" name="tickets" min="1" required>
+        </div>
+        <br>
+
+        <input id="terms" type="checkbox" />
+      <label for="">Accept Terms & Conditions</label>
+      <br /><br />
+
+      <details>
+        <summary>view terms & conditions</summary>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod a aut
+          quae commodi. Facere esse quidem asperiores eius, iure blanditiis
+          vero! Sunt ullam repellendus snffnskfnakakdneeeeoremque
+          eum non iure? Quae, esse sit. Aperiam sint facere voluptatibus
+          repudiandae!
+        </p>
+        
+      </details>
+      <br>
+        <div>
+            <input type="submit" value="Book Now">
+        </div>
+    </form>
+</body>
+</html>
+
