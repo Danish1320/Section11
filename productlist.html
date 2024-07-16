@@ -171,17 +171,19 @@
     <!-- ========== END HEADER ========== -->
     <main>
       <section
-        class="max-w-[98%] md:max-w-[90%] lg:max-w-[80%] mx-auto h-[60vh] flex items-center"
+        class="max-w-[98%] md:max-w-[90%] lg:max-w-[80%] mx-auto h-screen md:h-[60vh]"
       >
-        <div class="grid grid-cols-12">
-          <div class="col-span-8">
+        <div
+          class="grid grid-cols-12 items-center py-10 text-center md:text-left"
+        >
+          <div class="col-span-12 md:col-span-8 order-last md:order-first">
             <h1 class="text-4xl mb-3">Headphone Sale</h1>
             <p class="text-md mb-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
               mollitia. Hic adipisci tenetur repellendus magni iste,
               voluptatibus similique corrupti nisi.
             </p>
-            <div class="flex gap-3">
+            <div class="flex justify-center md:justify-start gap-3">
               <button class="px-3 py-2 rounded-md bg-blue-600 text-white">
                 Get Started
               </button>
@@ -192,8 +194,9 @@
               </button>
             </div>
           </div>
-          <div class="col-span-4">
-            <img class="w-full"
+          <div class="col-span-12 md:col-span-4">
+            <img
+              class="block mx-auto w-1/2 md:w-full"
               src="https://img.pikbest.com/origin/09/31/18/97epIkbEsTtBW.png!sw800"
               alt=""
             />
@@ -283,6 +286,51 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="py-16 bg-gray-300 mt-8">
+      <div
+        class="grid grid-cols-12 max-w-[90%] lg:max-w-[80%] mx-auto gap-5"
+      >
+        <div class="col-span-12 md:col-span-6">
+          <h1 class="text-2xl font-bold my-3">Brand Name</h1>
+          <p class="text-lg font-bold">&copy; 2024,All Rights Reserved</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+            laudantium dignissimos ea laborum voluptatem, eaque doloribus
+            deserunt quia in quisquam!
+          </p>
+        </div>
+        <div class=" col-span-4 md:col-span-2">
+          <h1 class="text-xl font-bold my-3">Quick Links</h1>
+          <a class="block text-black hover:text-blue-600 text-lg" href="#"
+            >Home</a
+          >
+          <a class="block text-black hover:text-blue-600 text-lg" href="#"
+            >About</a
+          >
+          <a class="block text-black hover:text-blue-600 text-lg" href="#"
+            >Contact</a
+          >
+          <a class="block text-black hover:text-blue-600 text-lg" href="#"
+            >Services</a
+          >
+        </div>
+
+        <div class=" col-span-4 md:col-span-2">
+          <h1 class="text-xl font-bold my-3">Quick Links</h1>
+          <a class="block text-black hover:text-blue-600 text-lg" href="#"
+            >Home</a
+          >
+          <a class="block text-black hover:text-blue-600 text-lg" href="#"
+            >About</a
+          >
+          <a class="block text-black hover:text-blue-600 text-lg" href="#"
+            >Contact</a
+          >
+          <a class="block text-black hover:text-blue-600 text-lg" href="#"
+            >Services</a
+          >
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
