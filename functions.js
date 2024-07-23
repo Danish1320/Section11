@@ -38,3 +38,4 @@ function sumInRange(start, end) {
 let start = 1;
 let end = 10;
 console.log(sumInRange(start, end));
+
