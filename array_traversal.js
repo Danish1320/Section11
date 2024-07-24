@@ -8,5 +8,6 @@ for(let i of nums){
     console.log(i);
 }
 
+
 console.log('------for each function------');
-nums.forEach((n,b) => {console.log(n,b);});
+nums.forEach((n,l,a) => {console.log(n,l,a);});
